@@ -2,8 +2,11 @@ A=zeros(121,3);
 i=1;
 for P=0:0.1:1;
 for Pa=0:0.1:1;
-    F=@(theta,b) 1./2.*(cos(theta).^4.*(1+sqrt(1-P))+2.*cos(theta).^2.*sin(theta).^2.*exp(1i.*2.*b).*sqrt(1-P).*sqrt(1-Pa)...
-           +2.*cos(theta).^2.*sin(theta).^2.*sqrt(1-P).*sqrt(1-Pa)+sin(theta).^4.*exp(1i.*2.*b).*(1+sqrt(1-P))).*sin(theta).*(1./(4.*pi));
+%     F=@(theta,b) 1./2.*(cos(theta).^4.*(1+sqrt(1-P))+2.*cos(theta).^2.*sin(theta).^2.*exp(1i.*2.*b).*sqrt(1-P).*sqrt(1-Pa)...
+%            +2.*cos(theta).^2.*sin(theta).^2.*sqrt(1-P).*sqrt(1-Pa)+sin(theta).^4.*exp(1i.*2.*b).*(1+sqrt(1-P))).*sin(theta).*(1./(4.*pi));
+    F=@(theta,b) (1./2.*(2.*cos(theta).^2-P.*cos(theta).^2.*cos(2.*theta)+sin(theta).*cos(theta).*sin(2.*theta).*exp(1i.*2.*b)...
+        .*sqrt(1-P).*sqrt(1-Pa)+cos(theta).*sin(theta).*sin(2.*theta).*sqrt(1-P).*sqrt(1-Pa)+P.*cos(theta).^2.*sin(theta).^2.*exp(1i.*2.*b)+(2-P).*sin(theta).^4.*exp(1i.*2.*b)))...
+        .*sin(theta).*(1./(4.*pi));
     r=integral2(F,0,pi,0,2*pi);
     A(i,1)=P;
     A(i,2)=Pa;
