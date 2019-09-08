@@ -1,7 +1,7 @@
 ### Fighting noise with noise in realistic quantum teleportation
 ##### less entanglement means more efficiency
-- this  verdict depends on the representation of quantum channel, an arbitrary known  two-qubit entangled state 
-![39](C:\Users\许瑞青\Desktop\常\39.PNG)
+- this  verdict depends on the representation of quantum channel, an arbitrary known  two-qubit entangled state ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/1.PNG)
+!Image(https://github.com/RuiqingXu/noise-analysis/blob/master/1.PNG)
 - when input state is affected by bit-flip channel and Bob's qubit, his share of entangled channel, may lie in one of the four different types of noise environment, the average fidelity is calculated as follows:![41](C:\Users\许瑞青\Desktop\常\41.PNG)
 the corresponding simulation results are presented by four unumbiguous pictures
 ![40](C:\Users\许瑞青\Desktop\常\40.PNG)
