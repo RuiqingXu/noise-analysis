@@ -15,6 +15,8 @@
 > That  is to say although  quantum channel is a mixed state, its efficiency can also be higher than that  of  maximally entangled state as quantum channel in QT protocol.  
 
 ##### more noise leads to more efficiency
+- from the figure 1, we found that when only  input state is subjected to one of the four noise, the linear increase of noise intensity results in the linear decrease of efficiency![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/4.PNG)
+- from the figure 2, when input state and Bob's qubit are subjected to noise, the efficiency may be increased if choosing appropriate noisy intensity.  
 ##### the optimal combination of noisy environments lead to highest efficiency.
 ##### In the noise environment, the choice of different quantum channel can affect efficiency of teleportation protocol
 
