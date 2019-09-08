@@ -4,7 +4,7 @@
 - when input state is affected by bit-flip channel and Bob's qubit, his share of entangled channel, may lie in one of the four different types of noise environment, the average fidelity is calculated as follows:
 ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/3.PNG)
 
-the corresponding simulation results are presented by four unumbiguous pictures
+​        the corresponding simulation results are presented by four unumbiguous pictures
 ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/2.PNG)
 >interpretation:
 >the solid black circle is in the situation that  the amounts of entanglement are maximum, equal  to Bob's qubit is noiseless.. 
