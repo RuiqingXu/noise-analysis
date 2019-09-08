@@ -7,7 +7,7 @@
 ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/2.PNG)
 
 >interpretation:
->the solid black circle is in the situation that  the amounts of entanglement are maximum, equal  to Bob's qubit is noiseless.. 
+>the solid black curve is in the situation that  the amounts of entanglement are maximum, equal  to Bob's qubit is noiseless.. 
 >It is obvious that when input state affected by bit-flip for a long time, some of the for different efficiency are  higher than the solid black circle.   
 
 ##### more noise leads to more efficiency
