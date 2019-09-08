@@ -28,6 +28,6 @@
 
 ##### In the noise environment, the choice of different quantum channel can affect efficiency of teleportation protocol
 
-![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/6.PNG)
+![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/7.PNG)
 
 - Although the amount of entanglement of  quantum channel is identical, different Bell-state as quantum channel would generate different efficiency. 
