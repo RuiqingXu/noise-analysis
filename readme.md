@@ -6,9 +6,13 @@
 - the corresponding simulation results are presented by four unumbiguous pictures
 ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/2.PNG)
 
->interpretation:
->the solid black curve is in the situation that  the amounts of entanglement are maximum, equal  to Bob's qubit is noiseless.. 
->It is obvious that when input state affected by bit-flip for a long time, some of the for different efficiency are  higher than the solid black circle.   
+> interpretation:
+
+> the solid black curve is in the situation that  the amounts of entanglement in quantum channel  are maximum, equal  to Bob's qubit is noiseless.. 
+
+> It is obvious that when input state affected by bit-flip for a long time, some of the four different efficiency are  higher than the solid black curve. Such as Alice's input state is subjected to bit-flip noise and Bob's qubit, his share of quantum entangled channel, is affected by the same noise as Alice's.
+
+> That  is to say although  quantum channel is a mixed state, its efficiency can also be higher than that  of  maximally entangled state as quantum channel in QT protocol.  
 
 ##### more noise leads to more efficiency
 ##### the optimal combination of noisy environments lead to highest efficiency.
