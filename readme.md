@@ -30,4 +30,4 @@
 
 ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/6.PNG)
 
-
+- Although the amount of entanglement of  quantum channel is identical, different Bell-state as quantum channel would generate different efficiency. 
