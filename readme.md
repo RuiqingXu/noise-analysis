@@ -18,11 +18,16 @@
 - from the second figure, we found that when only  input state is subjected to one of the four noise, the linear increase of noise intensity results in the linear decrease of efficiency![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/4.PNG)
 - from the first figure, when input state and Bob's qubit are subjected to noise, the efficiency may be increased if choosing appropriate noisy intensity.  
 ##### the optimal combination of noisy environments lead to highest efficiency.
-- there exists some cases that more noise may only relatively improve efficiency, such as the third figure and the forth figure.![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/5.PNG) ![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/6.PNG)
+- there exists some cases that more noise may only relatively improve efficiency, such as the third figure and the forth figure.
+
+![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/5.PNG)
+![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/6.PNG)
 > Interpretation:
 > from the above two figures, it is clear that each of the four color line can not exceed the black solid curve, so its efficiency can only be locally improved by increasing the the noise intensity of input state or Bob's qubit 
 > the way to increase noise intensity is letting qubit be subjected to noise for a long time.
 
-##### In the noise environment, the choice of different quantum channel can affect efficiency of teleportation protocol![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/6.PNG)
+##### In the noise environment, the choice of different quantum channel can affect efficiency of teleportation protocol
+
+![Image](https://github.com/RuiqingXu/noise-analysis/blob/master/6.PNG)
 
 
